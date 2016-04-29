@@ -9,7 +9,7 @@ touch1 = ttp223.TTP223(4)
 # Create the button object using GPIO pin 8
 button = grove.GroveButton(8)
 # Create the lcd object
-myLcd = lcd.Jhd1313m1(4, 0x3E, 0x62)
+myLcd = lcd.Jhd1313m1(0, 0x3E, 0x62)
 
 myLcd.setColor(255, 0, 0)
 myLcd.write("Color Rojo perras")
