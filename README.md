@@ -1,1 +1,0 @@
-# Hermes se la come
